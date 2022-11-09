@@ -11,6 +11,8 @@ const Home: NextPage = () => {
       </Head>
 
       <h1>Cruciverbalife</h1>
+
+      <p>Box</p>
     </div>
   );
 };
