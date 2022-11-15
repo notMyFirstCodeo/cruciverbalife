@@ -1,6 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { useState } from "react";
+import Grid from "../components/Grid";
+import GridButton from "../components/GridButton";
 
 const Home: NextPage = () => {
   return (
@@ -10,9 +13,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Cruciverbalife</h1>
+      {/* <h1>Cruciverbalife</h1> */}
 
-      <p>Box</p>
+      <Grid />
+
+      <GridButton />
     </div>
   );
 };
